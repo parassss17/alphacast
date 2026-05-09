@@ -1,0 +1,32 @@
+# --- Raw data (788 MB) — keep out of git, app doesn't need it at runtime ---
+data/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Optional: large training artifacts the app does NOT need ---
+# Comment these out if you want the full training tensors in the repo.
+artifacts/*_processed/X_train.npy
+artifacts/*_processed/X_test.npy
+artifacts/*_processed/y_train.npy
+artifacts/*_processed/y_test.npy
+
+# --- Streamlit ---
+.streamlit/secrets.toml

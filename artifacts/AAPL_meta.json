@@ -1,0 +1,9 @@
+{
+  "stock": "AAPL",
+  "matched_etf": "XLK",
+  "sector": "Technology",
+  "correlation": 0.6601,
+  "rows": 3201,
+  "date_start": "2005-02-25",
+  "date_end": "2017-11-10"
+}

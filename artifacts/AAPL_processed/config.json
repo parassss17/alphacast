@@ -1,0 +1,33 @@
+{
+  "stock": "AAPL",
+  "matched_etf": "XLK",
+  "sector": "Technology",
+  "feature_cols": [
+    "Close",
+    "Open",
+    "High",
+    "Low",
+    "Volume",
+    "STK_MA7",
+    "STK_MA21",
+    "STK_RSI",
+    "STK_MACD",
+    "ETF_Close",
+    "ETF_MA7",
+    "ETF_MA21",
+    "ETF_RSI",
+    "ETF_MACD"
+  ],
+  "target_col": "Close",
+  "target_col_index": 0,
+  "lookback": 30,
+  "horizon": 7,
+  "test_fraction": 0.2,
+  "n_features": 14,
+  "train_samples": 2508,
+  "test_samples": 601,
+  "train_date_start": "2005-03-28",
+  "train_date_end": "2015-05-05",
+  "test_date_start": "2015-05-06",
+  "test_date_end": "2017-11-10"
+}

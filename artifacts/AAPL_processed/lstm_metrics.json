@@ -1,0 +1,11 @@
+{
+  "model": "LSTM",
+  "stock": "AAPL",
+  "rmse_usd": 40.977638244628906,
+  "mape_pct": 26.949325561523438,
+  "horizon": 7,
+  "lookback": 30,
+  "n_test_windows": 601,
+  "n_params": 54215,
+  "best_val_mse_scaled": 0.06444327248027548
+}

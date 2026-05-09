@@ -1,0 +1,24 @@
+{
+  "lstm": {
+    "model": "LSTM",
+    "stock": "AAPL",
+    "rmse_usd": 40.977638244628906,
+    "mape_pct": 26.949325561523438,
+    "horizon": 7,
+    "lookback": 30,
+    "n_test_windows": 601,
+    "n_params": 54215,
+    "best_val_mse_scaled": 0.06444327248027548
+  },
+  "tft": {
+    "model": "TFT",
+    "stock": "AAPL",
+    "rmse_usd": 11.429327964782715,
+    "mape_pct": 7.5231709480285645,
+    "horizon": 7,
+    "lookback": 30,
+    "n_test_windows": 601,
+    "vs_lstm_rmse_pct_improvement": 72.10837799740496,
+    "vs_lstm_mape_pct_improvement": 72.08401029979883
+  }
+}
