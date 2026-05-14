@@ -1,3 +1,14 @@
+---
+title: AlphaCast
+emoji: 📈
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.32.0
+app_file: app.py
+pinned: false
+---
+
 # AlphaCast — Sector-Augmented Time-Series Transformers for Financial Forecasting
 
 > **B.Tech Final Year Major Project — Semester 8**

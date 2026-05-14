@@ -21,12 +21,16 @@ Thumbs.db
 .vscode/
 .idea/
 
-# --- Optional: large training artifacts the app does NOT need ---
-# Comment these out if you want the full training tensors in the repo.
-artifacts/*_processed/X_train.npy
-artifacts/*_processed/X_test.npy
-artifacts/*_processed/y_train.npy
-artifacts/*_processed/y_test.npy
+# --- Training tensors are now tracked so notebooks can run end-to-end on a fresh clone ---
+# (kept here as comments for reference)
+# artifacts/*_processed/X_train.npy
+# artifacts/*_processed/X_test.npy
+# artifacts/*_processed/y_train.npy
+# artifacts/*_processed/y_test.npy
 
 # --- Streamlit ---
 .streamlit/secrets.toml
+
+# --- Misc local clutter ---
+.claude/
+anaconda_projects/
