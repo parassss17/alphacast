@@ -3,13 +3,13 @@ streamlit>=1.32,<2.0
 plotly>=5.18,<6.0
 
 # Data / ML
-pandas>=2.0,<2.3
-numpy>=1.24,<2.0
-scikit-learn>=1.3,<1.6
+pandas>=2.2,<2.3
+numpy>=2.0,<2.3
+scikit-learn>=1.5,<1.6
 
 # Deep learning
-torch>=2.1,<2.5
-pytorch-lightning>=2.1,<2.5
+torch>=2.3,<2.5
+pytorch-lightning>=2.3,<2.5
 
 # darts: 'u8darts[torch]' installs ONLY the torch-model subset
 # (skips heavy optional deps like prophet, lightgbm, xgboost, statsmodels
