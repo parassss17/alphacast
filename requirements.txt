@@ -11,7 +11,6 @@ scikit-learn>=1.5,<1.6
 torch>=2.3,<2.6
 pytorch-lightning>=2.3,<2.6
 
-# darts: 'u8darts[torch]' installs ONLY the torch-model subset
-# (skips heavy optional deps like prophet, lightgbm, xgboost, statsmodels
-# that often fail to build on Streamlit Cloud).
-u8darts[torch]>=0.44,<0.45
+# darts: the 'darts' PyPI package (same lib as u8darts, just current naming).
+# Modern darts has a slim default install; heavy backends only via extras.
+darts>=0.44,<0.45
