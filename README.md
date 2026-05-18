@@ -14,6 +14,8 @@ pinned: false
 
 B.Tech Final Year Major Project (Semester 8).
 
+**Live demo:** https://huggingface.co/spaces/parassss17/alphacast
+
 AlphaCast compares an LSTM against a Temporal Fusion Transformer (TFT) for
 forecasting a stock's price 7 days ahead. The idea we test is whether anchoring
 a stock to its most-correlated sector ETF gives the models useful extra context.
@@ -70,6 +72,10 @@ needs the engineered CSV and the saved models, so it isn't required to run.
 
 ## Run it
 
+The easiest way is the live demo: https://huggingface.co/spaces/parassss17/alphacast
+
+To run it locally instead:
+
 ```bash
 git clone https://github.com/parassss17/alphacast.git
 cd alphacast
@@ -77,7 +83,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Opens at http://localhost:8501.
+This opens a local copy at http://localhost:8501 (that link only works on
+your own machine — the public app is the Hugging Face link above).
 
 To train on a different stock, put its OHLCV files in `data/Stocks/` and the
 ETF files in `data/ETFs/`, then run notebooks 1 to 4 in order (5 is optional).
@@ -95,6 +102,4 @@ ETF files in `data/ETFs/`, then run notebooks 1 to 4 in order (5 is optional).
 
 pandas, numpy, scikit-learn, PyTorch, darts, Streamlit, plotly
 
-## Author
 
-Paras Beniwal — B.Tech Final Year, Semester 8 Major Project.
