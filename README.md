@@ -83,8 +83,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-This opens a local copy at http://localhost:8501 (that link only works on
-your own machine — the public app is the Hugging Face link above).
+This opens a local copy at http://localhost:8501
 
 To train on a different stock, put its OHLCV files in `data/Stocks/` and the
 ETF files in `data/ETFs/`, then run notebooks 1 to 4 in order (5 is optional).
