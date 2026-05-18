@@ -1,0 +1,30 @@
+{
+  "model": "TFT_no_ETF",
+  "stock": "AAPL",
+  "rmse_usd": 12.078789710998535,
+  "mape_pct": 6.379731178283691,
+  "horizon": 7,
+  "lookback": 30,
+  "n_test_windows": 601,
+  "covariates_used": [
+    "Open",
+    "High",
+    "Low",
+    "Volume",
+    "STK_MA7",
+    "STK_MA21",
+    "STK_RSI",
+    "STK_MACD"
+  ],
+  "etf_columns_removed": [
+    "ETF_Close",
+    "ETF_MA7",
+    "ETF_MA21",
+    "ETF_RSI",
+    "ETF_MACD"
+  ],
+  "with_etf_rmse_usd": 11.429327964782715,
+  "with_etf_mape_pct": 7.5231709480285645,
+  "etf_rmse_reduction_pct": 5.376877665354522,
+  "etf_mape_reduction_pct": -17.923008631415204
+}
