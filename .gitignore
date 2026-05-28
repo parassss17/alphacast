@@ -32,5 +32,4 @@ Thumbs.db
 .streamlit/secrets.toml
 
 # --- Misc local clutter ---
-.claude/
 anaconda_projects/
